@@ -51,48 +51,154 @@
 
   <main class="main-content">
 
-  <!--SITE-HERO -->
+    <!--SITE-HERO -->
 
-  <section class="site-hero">
-    <div class="container">
-    <div class="site-hero__container">
-      <div class="site-hero__block-info">
-        <h1 class="site-hero__heading">More than just shorter links</h1>
-        <p class="site-hero__text">
-          Build your brand’s recognition and get detailed insights on how your links are performing.
-        </p>
-        <a href="#" class="site-hero__link button">Get Started</a>
+    <section class="main-content__site-hero site-hero">
+      <div class="container">
+        <div class="site-hero__container">
+          <div class="site-hero__block-info">
+            <h1 class="site-hero__heading">More than just shorter links</h1>
+            <p class="site-hero__text">
+              Build your brand’s recognition and get detailed insights on how your links are performing.
+            </p>
+            <a href="#" class="site-hero__link button">Get Started</a>
+          </div>
+          <img src="img/site_hero_img.png" alt="working with computer" class="site-hero__img" width="733" height="482"
+            srcset="img/site_hero_img.png 1x, img/site_hero_img@2x.png 2x">
+        </div>
+
+        <!-- FORM -->
+
+        <form action="https://echo.htmlacademy.ru" method="get" class="form">
+          <input type="url" placeholder="Shorten a link here..." aria-label="Shorten a link here..." required
+            class="form__input">
+          <button type="submit" class="form__button">Shorten It!</button>
+        </form>
+
       </div>
-      <img src="img/site_hero_img.png" alt="working with computer" class="site-hero__img" width="733" height="482"
-        srcset="img/site_hero_img.png 1x, img/site_hero_img@2x.png 2x">
-    </div>
-
-     <!-- FORM -->
-
-     <form action="https://echo.htmlacademy.ru" method="get" class="form">
-      <input type="url" placeholder="Shorten a link here..." aria-label="Shorten a link here..." required class="form__input">
-      <button type="submit" class="form__button">Shorten It!</button>
-    </form>
-
-    </div>
-  </section>
+    </section>
 
 
-  <!-- STATISTICS -->
+    <!-- STATISTICS -->
 
-  <section class="section-statistics">
-    <div class="section-statistics-container container">
+    <section class="section-statistics">
+      <div class="section-statistics-container container">
 
-      <!-- Top-block -->
-     <div class="section-statistics__top-block">
-      <h1 class="section-statistics__heading">Advanced Statistics</h1>
-      <p class="section-statistics__text">Track how your links are performing across the web with our advanced statistics dashboard.</p>
-     </div>
-    </div>
+        <!-- Top-block -->
 
-  </section>
+        <div class="section-statistics__top-block">
+          <h1 class="section-statistics__heading">Advanced Statistics</h1>
+          <p class="section-statistics__text">Track how your links are performing across the web with our advanced
+            statistics dashboard.</p>
+        </div>
 
+        <!-- BOX-STATISTICS -->
+
+        <div class="section-statistics__box-statistics box-statistics">
+          <ul class="box-statistics__list">
+            <li class="box-statistics__item">
+              <img class="box-statistics__img" src="img/brand.svg" alt="brand icon" width="88" height="88">
+              <h3 class="box-statistics__heading">Brand Recognition</h3>
+              <p class="box-statistics__text">Boost your brand recognition with each click. Generic links don’t mean a
+                thing. Branded links help instil confidence in your content.</p>
+            </li>
+
+            <li class="box-statistics__item">
+              <img class="box-statistics__img" src="img/detailed.svg" alt="detailed icon" width="88" height="88">
+              <h3 class="box-statistics__heading">Detailed Records</h3>
+              <p class="box-statistics__text">Gain insights into who is clicking your links. Knowing when and where
+                people engage with your content helps inform better decisions.</p>
+            </li>
+
+            <li class="box-statistics__item">
+              <img class="box-statistics__img" src="img/fully.svg" alt="fully icon" width="88" height="88">
+              <h3 class="box-statistics__heading">Fully Customizable</h3>
+              <p class="box-statistics__text">Improve brand awareness and content discoverability through customizable
+                links, supercharging audience engagement.</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FOOTER-TOP -->
+
+    <section class="footer-top">
+        <h3 class="footer-top__heading">Boost your links today</h3>
+        <span class="footer-top__block-link">
+          <a href="#" class="footer-top__link button">Get Started</a>
+        </span>
+    </section>
   </main>
+
+
+  <!-- SITE-FOOTER -->
+
+  <footer class="site-footer">
+  <div class="site-footer__container container">
+    <a href="#" class="site-footer__logo-link">
+      <img class="site-footer__logo" src="img/footer-logo.svg" alt="footer logo" width="120" height="33">
+    </a>
+    <ul class="site-footer__list">
+
+      <li class="site-footer__item">
+        <h3 class="site-footer__title">Features</h3>
+        <a href="#" class="site-footer__links">Link Shortening</a>
+        <a href="#" class="site-footer__links">Branded Links</a>
+        <a href="#" class="site-footer__links">Analytics</a>
+      </li>
+
+      <li class="site-footer__item">
+        <h3 class="site-footer__title">Resources</h3>
+        <a href="#" class="site-footer__links">Blog</a>
+        <a href="#" class="site-footer__links">Developers</a>
+        <a href="#" class="site-footer__links">Support</a>
+      </li>
+
+      <li class="site-footer__item">
+        <h3 class="site-footer__title">Company</h3>
+        <a href="#" class="site-footer__links">About</a>
+        <a href="#" class="site-footer__links">Our Team</a>
+        <a href="#" class="site-footer__links">Careers</a>
+        <a href="#" class="site-footer__links">Contact</a>
+      </li>
+
+    </ul>
+
+
+    <!-- SOCIAL NETWORKS -->
+
+    <div class="site-footer__social-networks-block social-networks-block">
+  <ul class="social-networks-block__list">
+    <li class="social-networks-block__item">
+      <a href="" class="social-networks-block__link">
+        <img class="social-networks-block__img" src="img/fecebook-icon.svg" alt="fecebook-icon" width="24" height="24">
+      </a>
+    </li>
+
+    <li class="social-networks-block__item">
+      <a href="" class="social-networks-block__link">
+        <img class="social-networks-block__img" src="img/twitter-icon.svg" alt="twitter-icon" width="24" height="24">
+      </a>
+    </li>
+
+    <li class="social-networks-block__item">
+      <a href="" class="social-networks-block__link">
+        <img class="social-networks-block__img" src="img/descovry-icon.svg" alt="descovry-icon" width="24" height="24">
+      </a>
+    </li>
+
+    <li class="social-networks-block__item">
+      <a href="" class="social-networks-block__link">
+        <img class="social-networks-block__img" src="img/instagram-icon.svg" alt="instagram-icon" width="24" height="24">
+      </a>
+    </li>
+  </ul>
+    </div>
+  </div>
+  </footer>
 
 </body>
 
